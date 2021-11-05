@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+  }
+
+  body{
+    margin:0;
+  }
+#background_img{
+    background-image: url("beachshowcase.jpg");
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 1px;
+    text-align: center;
+    color: rgb(146, 98, 57);
+}
+h1{
+    font-size: 60px;
+}
+#first_container{
+    font-size: x-large;
+}
+#select:hover{
+   background-color: rgb(146, 98, 57);;
+   color: white;
+}
+
+#select a {
+    text-decoration: none;
+    color: white;
+}
+
+#select {
+    border: 1px solid rgb(146, 98, 57);
+    margin-left: 45%;
+    margin-right: 45%;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+#second_container {
+    background-color: rgb(146, 98, 57);
+    overflow: hidden;
+    text-align: center;
+    font-size: large;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+#third_container{
+    text-align: center;
+    font-size: large;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f4f4f4;
+}
+#contain{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1, 100px);
+}
+.left_colum{
+    border: 1px solid rgb(146, 98, 57);
+    background-color: rgb(146, 98, 57);
+    color: white;
+}
+
+.right_colum{
+    background-color: rgb(146, 98, 57);
+}
+
+.middle_colum { 
+padding: 50px;
+}
+
+.textc p{
+    color: white;
+    font-size: larger;
+    padding-top: 20px;
+    text-align: center;
+}
